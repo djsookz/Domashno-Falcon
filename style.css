@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    background-color: black;
+}
+
+#firstContainer{
+    height: 100vh;
+}
+
+.firstHeroImage{
+    background-image: url("images/download.webp");
+    height:  inherit;
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+}
+
+.firstHeroImage header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+
+#firstContainer nav li a{
+    text-decoration: none;
+}
+
+#firstContainer nav li a:hover{  
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+#firstContainer nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-right: 270px;
+}
+
+#firstContainer nav ul li{
+margin: 0 15px;
+font-weight: 700;
+}
+
+
+.navRightShop a{
+    position: absolute;
+    top: 40px;
+    right: 105px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navRightShop a:hover{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.material-symbols-outlined{
+    position: absolute;
+    top: 35px;
+    right: 45px;
+    cursor: pointer;
+}
+
+#firstContainer  .mainText{
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 190px);
+    text-align: center;
+}
+
+#firstContainer  .mainText h1{
+    font-size: 90px;
+    font-weight: bold;
+}
+
+#firstContainer  .mainText h2{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#counter{
+    width: 100%;
+    height: 322px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#counter .container{
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+     text-align: center;
+     padding: 40px;
+     margin: 0 100px;
+}
+
+#counter .container .number{
+    font-size: 120px;
+}
+
+#secondContainer{
+    height: 100vh;  
+}
+
+#secondContainer .sticky{
+    height: 200vh;
+}
+
+.secondHeroImage{
+    background-image: url("images/secondHeroImage.webp");
+    height:  100vh;
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+    position: sticky;
+    top: 0;  
+}
+
+.secondHeroImage p {
+    width: 500px;
+    line-height: 40px;
+    font-size: 20px;
+    transform: translate3d(350px, 250px, 4px);
+}
+
+#thirdContainer{
+    height: 100vh;
+    position: inherit;
+    background-image: url("images/download.webp");
+}
+
+#forthContainer{
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+}
+
+.forthHeroImage video{
+   display: inline-block;
+    width: 100%;
+    height: 100%;   
+}
+
+.forthHeroImage img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;  
+}
+
+#rocketsFrame{
+    width: 100%;
+    height: 100vh;
+}
+
+ #active{
+    opacity: 100%;
+
+}
+
+.dotsRockets img{
+    width: 10px;
+    height: 10px;
+    filter: invert(1);
+    margin: 0 7px;
+    opacity: 50%;
+}
+
+.dotsRockets  #arrowR{
+    position: absolute;
+    opacity: 1;
+    width: 30px ;
+    height: 30px;
+    right: 2%;
+    bottom: 8%;
+}
+
+.dotsRockets  #arrowL{
+    position: absolute;
+    opacity: 1;
+    width: 30px ;
+    height: 30px;
+    left: 2%;
+    bottom: 8%;
+}
+
+.dotsRockets{
+    display: flex;
+    justify-content: center;
+    margin-top: -35px;
+}
+
+#table{
+    width: 500px;
+    
+    position: absolute;
+    top: 25%;
+    left: 18%;
+}
+
+#table table {
+    width: 100%;
+}
+#table tbody{
+    height: 400px;
+    width: 100%;
+    font-weight: 700; 
+}
+
+#table tbody td{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.521);
+    text-align: left;
+}
+
+#table tbody span{
+    color: gray;
+}
+
+#table tbody td:nth-child(2n){
+    text-align: right;
+}
+
+.infoRockets{
+    width: 500px;
+    position: absolute;
+    top: 25%;
+    left: 18%;
+}
+
+.options{
+    display: flex;
+    margin: 40px 0; 
+}
+
+.infoRockets h1{
+    margin-top: 20px;
+}
+
+.options h3{
+    margin-right: 10px;
+    cursor: pointer;
+    color: gray;
+}
+
+#active{
+color: white;
+}
+
+.options h3:hover{
+    color: white;
+    transition: 0.6s;
+}
+
+.info p {
+    margin-top: 25px;
+    line-height: 30px;
+}
+
+.info div{
+    display: flex;
+    margin-top: 25px;
+    width: 500px;
+    justify-content: space-between;
+    font-size: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.473);
+    padding-bottom: 25px;
+}
+
+#fifthContaneir{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+#fifthContaneir iframe{
+    height: 500px;
+}
+
+#sixthContainer{
+    width: 100%;
+    height: 100vh;
+}
+
+.sixthHeroImage{
+    background-image: url("images/Merlin.webp");
+    height:  inherit;
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+
+.seventhHeroImage{
+    background-image: url("images/MerlinVac.webp");
+    height:  inherit;
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+
+#gallery{
+    width: 100%;
+    height: 100vh;
+}
+
+#gallery iframe{
+    width: 100%;
+    height: 100%;  
+}
+
+#gPic1{
+    width: 100%;
+    background-size: contain;
+    transform: translateY(-100px);
+}
+
+#gFooter{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+}
+
+#gFooter .gNav{
+    width: 100%;
+    
+}
+
+.gNav img {
+    
+    width: 25px ;
+    height: 25px;
+    filter: invert(1);
+}
+
+#left{
+    position: absolute;
+    left: 4%;
+    bottom: 30%;
+}
+
+#right{
+    position: absolute;
+    right: 4%;
+    bottom: 30%;
+}
+
+#gFooter div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+
+#engines iframe{
+    width: 100%;
+    height: 100vh;
+}
+
+footer{
+    width: 100%;
+    height: 550px;
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+}
+
+footer button{
+    margin: 40px 20px 120px 20px;
+    padding: 20px;
+    background-color: black;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+.fButtons button{
+    cursor: pointer;
+}
+
+.fNavigation ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.fNavigation ul a {
+    text-decoration: none;
+}
+
+.fNavigation li{
+    margin: 0 25px;
+    font-size: 13px;
+}
